@@ -1,0 +1,21 @@
+<html>
+<body>
+<h3>Diffie-Hellman Key Exchange</h3>
+
+<script>
+let p = 23, g = 5;
+let a = 6, b = 15;
+
+let A = (g ** a) % p;
+let B = (g ** b) % p;
+
+let keyA = (B ** a) % p;
+let keyB = (A ** b) % p;
+
+document.write("Public A: " + A + "<br>");
+document.write("Public B: " + B + "<br>");
+document.write("Key A: " + keyA + "<br>");
+document.write("Key B: " + keyB);
+</script>
+</body>
+</html>
