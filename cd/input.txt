@@ -1,0 +1,3 @@
+Hello WORLD! I am learning Lex.
+Compiler Design Lab 2026: C programming is fun @ college.
+Vowels, consonants, and UPPERCASE letters: ABC XYZ.
