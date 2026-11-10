@@ -1,0 +1,10 @@
+yacc -d program.y
+gcc y.tab.c -o output
+./output
+
+lex program.l
+yacc -d program.y
+gcc lex.yy.c y.tab.c -o output -ll
+./output
+
+Lex + yacc rastey
